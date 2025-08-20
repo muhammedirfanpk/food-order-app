@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Puttu & Kadala Curry",
+    "category": "Breakfast",
+    "price": 60,
+    "image": "https://i.pinimg.com/736x/95/9f/27/959f27d0057b33cd232812ad01ce2d7c.jpg",
+    "discription" : "Puttu is a steamed cylindrical rice cake made with ground rice and coconut, soft and fluffy in texture"
+  },
+  {
+    "id": 2,
+    "name": "Appam & Veg Stew",
+    "category": "Breakfast",
+    "price": 40,
+    "image": "https://i.pinimg.com/736x/98/6e/b3/986eb30c91145e9880418c032ba8676d.jpg",
+    "discription" : "Soft lacy appam served with creamy, spiced Kerala vegetable stew"
+  },
+  {
+    "id": 3,
+    "name": "Idiyappam & Egg Curry",
+    "category": "Breakfast",
+    "price": 40,
+    "image": "https://i.pinimg.com/736x/80/5d/ba/805dbaeeec65dc7ebbcfa1e0d0ee280a.jpg",
+    "discription" : "Delicate string hoppers paired with rich, flavorful Kerala egg curry."
+  },
+   {
+    "id": 4,
+    "name": "Idli & Sambar",
+    "category": "Breakfast",
+    "price": 50,
+    "image": "https://i.pinimg.com/736x/a8/00/6d/a8006de947bebb25adbc0191ebe4f030.jpg",
+    "discription" : "Soft steamed idlis served with flavorful, tangy, and aromatic sambar delight"
+  },
+   {
+    "id": 5,
+    "name": "Masala Dosa",
+    "category": "Breakfast",
+    "price": 60,
+    "image": "https://i.pinimg.com/736x/da/26/07/da2607596434e098807784328419a85d.jpg",
+    "discription" : "Crispy golden dosa filled with spiced potato masala, served with chutneys"
+  },
+   {
+    "id": 6,
+    "name": "Poratta beef",
+    "category": "Breakfast",
+    "price": 90,
+    "image": "https://i.pinimg.com/736x/51/93/10/519310a846523b7783bafa405390b737.jpg",
+    "discription" : "Flaky Kerala porotta paired with spicy, tender, and flavorful beef curry"
+  },
+   {
+    "id": 7,
+    "name": "Sadya",
+    "category": "Lunch",
+    "price": 110,
+    "image": "https://i.pinimg.com/736x/21/81/62/218162aacbde4c60a49c3f7f2bf49975.jpg",
+    "discription" : "Traditional Kerala feast with rice, curries, pickles, payasam, and banana leaf"
+  },
+   {
+    "id": 8,
+    "name": "Chicken Biriyani",
+    "category": "Lunch",
+    "price": 130,
+    "image": "https://i.pinimg.com/736x/27/6c/60/276c600420fa1a28e357ee10f57d8c87.jpg",
+    "discription" : "Fragrant basmati rice layered with spiced chicken, herbs, and fried onions"
+  },
+   {
+    "id": 160,
+    "name": "Beef Briyani",
+    "category": "Lunch",
+    "price": 55,
+    "image": "https://i.pinimg.com/736x/72/20/08/722008197afd0edec575853499cd5926.jpg",
+    "discription" : "Aromatic basmati rice layered with spicy beef, herbs, and caramelized onions"
+  },
+   {
+    "id": 100,
+    "name": "Vegetable Fried Rice",
+    "category": "Lunch",
+    "price": 55,
+    "image": "https://i.pinimg.com/736x/c0/94/e0/c094e017caa0e1788c186906e420d17f.jpg",
+    "discription" : "Colorful stir-fried rice with fresh vegetables, soy sauce, and aromatic flavors"
+  },
+  {
+    "id": 11,
+    "name": "Mutton Mundi",
+    "category": "Lunch",
+    "price": 250,
+    "image": "https://i.pinimg.com/736x/bb/e6/4c/bbe64c63b7a143975a669f4bd86cb58f.jpg",
+    "discription" : "Tender mutton mundi cooked with rich spices, herbs, and aromatic flavors"
+  },
+  {
+    "id": 12,
+    "name": "Chicken Mandi",
+    "category": "Dinner",
+    "price": 200,
+    "image": "https://i.pinimg.com/736x/56/ea/cb/56eacb7ee5a94d8eaf847c6f0d289d53.jpg",
+    "discription" : "Fragrant rice served with juicy chicken, Arabic spices, and smoky flavor"
+  },
+  {
+    "id": 13,
+    "name": "Alfaham",
+    "category": "Dinner",
+    "price": 150,
+    "image": "https://i.pinimg.com/736x/6d/da/de/6ddadec955034d12a5518b440602ce74.jpg",
+    "discription" : "Juicy grilled chicken marinated in Arabic spices, served with garlic sauce"
+  },
+  {
+    "id": 14,
+    "name": "shawaya chicken ",
+    "category": "Dinner",
+    "price": 150,
+    "image": "https://i.pinimg.com/736x/ff/ed/f0/ffedf0819a2eeabad81034f93bf7a2c7.jpg",
+    "discription" : "Succulent roasted chicken marinated in spices, grilled to perfection, served hot"
+  },
+  {
+    "id": 15,
+    "name": "Fried chicken ",
+    "category": "Dinner",
+    "price": 250,
+    "image": "https://i.pinimg.com/736x/a0/17/2f/a0172f8ab2de73f0f8ccf02e71ce5c7d.jpg",
+    "discription" : "Crispy golden fried chicken seasoned with spices, juicy and flavorful inside"
+  },
+  {
+    "id": 16,
+    "name": "Beef Fry",
+    "category": "Dinner",
+    "price": 100,
+    "image": "https://i.pinimg.com/736x/9a/8f/4c/9a8f4cf73897cb4258d6edb31412934a.jpg",
+    "discription" : "Spicy Kerala-style beef fry with roasted coconut, curry leaves, and masala"
+  },
+  {
+    "id": 17,
+    "name": "Chilly Chicken",
+    "category": "Dinner",
+    "price": 70,
+    "image": "https://i.pinimg.com/736x/07/77/9a/07779a725119e05845a14a414294bb27.jpg",
+    "discription" : "Spicy Indo-Chinese chili chicken tossed with sauces, capsicum, and onions"
+  },
+  {
+    "id": 18,
+    "name": "Burger ",
+    "category": "Snacks",
+    "price": 100,
+    "image": "https://i.pinimg.com/736x/c4/40/0f/c4400f1f2c8441cb7c6eea6844a79135.jpg",
+    "discription" : "Juicy burger patty layered with fresh veggies, cheese, and soft bun"
+  },
+  {
+    "id": 19,
+    "name": "Shawarma",
+    "category": "Snacks",
+    "price": 90,
+    "image": "https://i.pinimg.com/736x/cb/3d/a2/cb3da240a9b70b1c83fd7093816e746d.jpg",
+    "discription" : "Tender grilled meat wrapped in soft bread with veggies, sauces, and spices"
+  },
+  {
+    "id": 20,
+    "name": "Pizza",
+    "category": "Snacks",
+    "price": 130,
+    "image": "https://i.pinimg.com/736x/f9/00/7f/f9007f73da46783cb255a1e621637f27.jpg",
+    "discription" : "Cheesy baked pizza topped with sauce, vegetables, meats, and flavorful seasonings"
+  }
+]
