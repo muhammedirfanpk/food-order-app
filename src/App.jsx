@@ -11,7 +11,7 @@ import Admin from './pages/Admin';
 import ProtectedRoute from "./component/ProtectedRoute";
 import Signup from "./pages/Signup";
 import Footer from "./component/Footer";
-import './app.css';
+
 
  
 
