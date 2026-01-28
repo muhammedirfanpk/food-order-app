@@ -6,6 +6,10 @@ import { Provider } from 'react-redux'
 import { store } from './api/store.js'
 import { BrowserRouter } from 'react-router-dom'
 
+const redirect = new URLSearchParams(window.location.search).get("redirect");
+if (redirect) {
+  window.history.replaceState(null, "", redirect);
+}
 
 const adminUser = {
   email:"admin@gmail.com",
@@ -18,10 +22,11 @@ if(!localStorage.getItem("admin")) {
   localStorage.setItem("admin", JSON.stringify(adminUser));
 }
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store} >
-      <BrowserRouter basename='/food-order-app'>
+      <BrowserRouter basename={import.meta.env.DEV ? '/' : '/food-order-app'}>
         <App />
       </BrowserRouter>
     </Provider>

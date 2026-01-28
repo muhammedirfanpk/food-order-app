@@ -46,10 +46,10 @@ const App = () => {
             <Home />
           </ProtectedRoute>
         } />
-        <Route path="/aboute" element={<About />} />
+        <Route path="/about" element={<About />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<Login />} />
-        
+
       </Routes>
 
        {!hideNavbarFooter && !hideFooter && <Footer />}

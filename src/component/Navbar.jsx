@@ -51,8 +51,8 @@ const Navbar = () => {
            <h3 className="text-xl font-bold hover:scale-105 transition text-yellow-400 ">NOVA Bites</h3>
          </a>
         <ul className="hidden sm:flex items-center gap-10 font-semibold  ">
-          <li className={`  cursor-pointer ${location.pathname === '/home' ? 'text-yellow-600' : "text-white"} `}><a href="/home">Home</a></li>
-          <li className={`  cursor-pointer ${location.pathname === '/aboute' ? 'text-yellow-600' : "text-white"} `}><a href="/aboute">About</a></li>
+          <li className={`  cursor-pointer ${location.pathname === '/home' ? 'text-yellow-600' : "text-white"} `}><Link to="/home">Home</Link></li>
+          <li className={`  cursor-pointer ${location.pathname === '/about' ? 'text-yellow-600' : "text-white"} `}> <Link to="/about">About</Link></li>
         </ul>
 
       
@@ -98,10 +98,10 @@ const Navbar = () => {
 >
 
         <li className={`text-center p-2 w-full md:w-auto ${location.pathname === '/home' ? 'text-yellow-600' : 'text-white'}`}>
-          <a href="/home">Home</a>
+          <Link to="/home">Home</Link>
         </li>
-        <li className={`text-center p-2  w-full md:w-auto ${location.pathname === '/aboute' ? 'text-yellow-600' : 'text-white'}`}>
-          <a href="/aboute">Aboute</a>
+        <li className={`text-center p-2  w-full md:w-auto ${location.pathname === '/about' ? 'text-yellow-600' : 'text-white'}`}>
+           <Link to="/about">About</Link>
         </li>
         <li className='text-center'>
         </li>
