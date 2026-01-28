@@ -19,11 +19,10 @@ const initialState = {
   searchTerm: '',
 };
    
- export const fetchproducts =  createAsyncThunk('products/fetch', async() => {
-    const response = await axios.get('/FoodItems.json');
-    return response.data;
- })
-
+export const fetchproducts = createAsyncThunk('products/fetch', async () => {
+  const response = await axios.get(`${import.meta.env.BASE_URL}FoodItems.json`);
+  return response.data;
+});
 const productsSlice = createSlice({
    name:'products',
    initialState,

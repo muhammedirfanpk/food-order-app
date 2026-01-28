@@ -21,7 +21,7 @@ if(!localStorage.getItem("admin")) {
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store} >
-      <BrowserRouter>
+      <BrowserRouter basename='/food-order-app'>
         <App />
       </BrowserRouter>
     </Provider>

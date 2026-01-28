@@ -29,16 +29,18 @@ const App = () => {
       <Toaster position="top-center" />
       
     
-      {!hideNavbarFooter && <Navbar/>}
+      {!hideNavbarFooter && <Navbar />}
 
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+
         <Route path="/admin" element={
           <ProtectedRoute role="admin">
             <Admin />
           </ProtectedRoute>
         } />
+
         <Route path="/home" element={
           <ProtectedRoute role="user">
             <Home />
@@ -47,10 +49,10 @@ const App = () => {
         <Route path="/aboute" element={<About />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<Login />} />
+        
       </Routes>
 
-      {!hideNavbarFooter && !hideFooter && <Footer/>}
-
+       {!hideNavbarFooter && !hideFooter && <Footer />}
       
     </div>
   );
